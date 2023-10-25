@@ -10,7 +10,7 @@ const socket = new WebSocket(`wss://${ayarlar.adres}:${ayarlar.port}`);
 // botAtama.botlariCalistir();
 
 socket.on('open', () => {
-   // bla bla bla
+   	// bla bla bla
 });
 
 socket.on('message', (data) => {
